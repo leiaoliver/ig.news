@@ -40,17 +40,29 @@
       }
 
       &.active::after {
+<<<<<<< HEAD
         content: "";
+=======
+        content: '';
+>>>>>>> 3b7cf34520d5b7e4ead2905b2190fdb9c94314ac
         height: 3px;
         border-radius: 3px 3px 0 0;
         width: 100%;
         position: absolute;
+<<<<<<< HEAD
         bottom: 0;
+=======
+        bottom: 1px;
+>>>>>>> 3b7cf34520d5b7e4ead2905b2190fdb9c94314ac
         left: 0;
         background: var(--yellow-500);
       }
     }
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3b7cf34520d5b7e4ead2905b2190fdb9c94314ac
   button {
     margin-left: auto;
   }

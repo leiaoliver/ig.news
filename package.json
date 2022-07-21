@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "next": "12.1.6",
     "react": "18.1.0",
     "react-dom": "18.1.0",
@@ -21,5 +22,28 @@
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
     "typescript": "^4.7.2"
+=======
+    "@prismicio/client": "^6.6.1",
+    "@stripe/stripe-js": "^1.32.0",
+    "@types/prismic-dom": "^2.1.1",
+    "axios": "^0.27.2",
+    "faunadb": "^4.6.0",
+    "next": "12.1.6",
+    "next-auth": "^4.5.0",
+    "prismic-dom": "^2.2.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "sass": "^1.52.3",
+    "stripe": "^9.9.0"
+  },
+  "devDependencies": {
+    "@types/next-auth": "^3.15.0",
+    "@types/node": "^18.0.0",
+    "@types/react": "^18.0.14",
+    "eslint": "8.18.0",
+    "eslint-config-next": "12.1.6",
+    "typescript": "^4.7.4"
+>>>>>>> 3b7cf34520d5b7e4ead2905b2190fdb9c94314ac
   }
 }

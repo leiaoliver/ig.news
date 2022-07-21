@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 import Document, {
   Head,
   Html,
   Main,
   NextScript
 } from "../../node_modules/next/document";
+=======
+import Document, {Html, Head, Main, NextScript} from 'next/document';
+>>>>>>> 3b7cf34520d5b7e4ead2905b2190fdb9c94314ac
 
 export default class MyDocument extends Document {
   render() {
