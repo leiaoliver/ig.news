@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-import styles from "./styles.module.scss";
-
-export function SubscribeButton() {
-  return (
-    <button type="button" className={styles.subscribeButton}>
-=======
 import {signIn, useSession} from 'next-auth/react';
 import {useRouter} from 'next/router';
 import {api} from '../../services/api';
@@ -49,7 +42,6 @@ export function SubscribeButon({priceId}: SubscribeButonProps) {
       type="button"
       className={styles.subscribeButton}
       onClick={() => handleSubscribe()}>
->>>>>>> 3b7cf34520d5b7e4ead2905b2190fdb9c94314ac
       Subscribe now
     </button>
   );
