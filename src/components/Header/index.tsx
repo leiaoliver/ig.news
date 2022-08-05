@@ -2,7 +2,7 @@ import Link from 'next/link';
 import {useRouter} from 'next/router';
 import {ActiveLink} from '../ActiveLink';
 
-import {SignInButton} from '../SignInButton/index';
+import {SignInButton} from '../SignInButton';
 
 import styles from './styles.module.scss';
 
